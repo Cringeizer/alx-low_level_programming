@@ -1,5 +1,5 @@
 #!/bin/bash
-echo"enter filename"
+echo "enter filename"
 read filename
 
 echo "enter commit msg"
@@ -7,5 +7,5 @@ read msg
 
 chmod u+x ${filename}
 git add .
-git commit -m "${msg}
+git commit -m "${msg}"
 git push  
